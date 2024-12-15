@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piškvorky Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piškvorky Online</h1>
+        
+        <!-- Připojovací formulář -->
+        <div id="joinForm" class="join-form">
+            <input type="text" id="roomId" placeholder="Zadejte kód místnosti" maxlength="6">
+            <button id="joinButton">Připojit se do hry</button>
+            <button id="createButton">Vytvořit novou hru</button>
+        </div>
+
+        <!-- Čekání na protihráče -->
+        <div id="waitingScreen" class="waiting-screen hidden">
+            <p>Čekání na protihráče...</p>
+            <p>Kód místnosti: <span id="roomCode"></span></p>
+        </div>
+
+        <!-- Herní obrazovka -->
+        <div id="gameScreen" class="hidden">
+            <div id="status" class="status">Na tahu: X</div>
+            <div class="game-board">
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+            <button id="restartButton" class="hidden">Restart hry</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
