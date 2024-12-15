@@ -1,0 +1,58 @@
+# ERROR FIXING PROCESS (follow this process every time you are fixing an error)
+- STEP 1: WRITE 3 LONG, DETAILED AND THOROUGH PARAGRAPHS, keeping an open mind.
+- STEP 2: EXPLAIN what you think the error is IN PLAIN CZECH.
+- STEP 3: Fix the error, while changing as few lines of code as possible.
+- STEP 4: TELL ME HOW TO TEST this fix.
+- STEP 5: DOCUMENT the change in the project’s CHANGELOG or relevant documentation.
+
+# BUILDING PROCESS (follow this process when you're adding new features or making major changes)
+- STEP 1: ANSWER ALL OF THE USER'S QUESTIONS AND INSTRUCTIONS, fully and completely.
+- STEP 2: WRITE TWO DETAILED PARAGRAPHS thinking and reasoning about what needs to be done.
+- STEP 3: LIST OUT THE REMAINING NECESSARY STEPS (if any), and choose which one to tackle first.
+- STEP 4: WRITE THE CODE for the current step ONLY!!
+- STEP 5: EXPLAIN TO THE USER EVERY SINGLE CHANGE YOU MADE, WHERE YOU MADE IT, AND WHY.
+- STEP 6: GIVE USER CONCISE INSTRUCTIONS ON HOW TO TEST THE NEW FEATURE.
+- FOLLOW THESE STEPS IN ORDER. DO NOT SKIP ANY STEPS!!
+
+# GITHUB PUSH PROCESS (follow these steps IN ORDER anytime the user wants to push changes)
+- STEP 1: Inside of a code block, write the commit message for the user, clearly and concisely.
+- STEP 2: Lastly, give the user the command to push to GitHub (in a separate code block).
+- STEP 3: Provide a short explanation of the changes in the commit message for clarity.
+- FOLLOW THESE STEPS IN ORDER. DO NOT SKIP ANY STEPS!!
+
+# DOCUMENTATION PROCESS (follow these steps when updating or creating documentation)
+- STEP 1: Use simple and consistent language throughout the documentation.
+- STEP 2: Provide code examples or snippets for complex functionality.
+- STEP 3: Keep each documentation file under 200 lines to maintain focus and readability.
+- STEP 4: Include "How to Test" sections for any feature or fix documented.
+- STEP 5: Periodically review and refine documentation to ensure it stays up-to-date.
+
+# TESTING PROCESS (ensure all code is properly tested before deployment)
+- STEP 1: Write unit tests for every function and ensure edge cases are covered.
+- STEP 2: Use descriptive names for tests to clearly indicate their purpose.
+- STEP 3: Run all tests locally and document the results.
+- STEP 4: Suggest additional tests if you think coverage could be improved.
+- STEP 5: Provide a final summary of testing results to the user.
+
+# CODE REVIEW PROCESS (for peer reviews or AI-assisted code reviews)
+- STEP 1: Check for adherence to coding standards and project-specific conventions.
+- STEP 2: Highlight any areas where the code could be simplified or optimized.
+- STEP 3: Ensure the code is well-documented and clearly written.
+- STEP 4: Verify that all new code is properly tested and tests pass.
+- STEP 5: Summarize findings and suggest improvements where applicable.
+
+# OPTIMIZATION PROCESS (follow these steps when asked to optimize code)
+- STEP 1: Identify bottlenecks or inefficiencies in the current implementation.
+- STEP 2: Propose multiple optimization strategies and their trade-offs.
+- STEP 3: Write a detailed explanation of why the chosen optimization is the best approach.
+- STEP 4: Implement changes incrementally, testing performance at each step.
+- STEP 5: Document performance improvements and update relevant metrics or benchmarks.
+
+# GENERAL GUIDELINES
+- Always assume the user might not have the latest context; provide explanations as if this is the first time they’re seeing the solution.
+- Avoid overly complex solutions unless absolutely necessary; simplicity is key.
+- Document everything – from bug fixes to design decisions – for future reference.
+- Treat AI suggestions as starting points, not final solutions; encourage iterative refinement.
+
+# FILE SECURITY
+- Regularly verify that sensitive or project-specific files are not included in public repositories.
