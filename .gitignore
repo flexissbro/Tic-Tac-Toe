@@ -3,4 +3,5 @@ node_modules/
 .env
 .vscode/
 *.log
-Thumbs.db 
+Thumbs.db
+ngrok.exe 
